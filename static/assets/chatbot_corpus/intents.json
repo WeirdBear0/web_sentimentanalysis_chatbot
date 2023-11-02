@@ -1,0 +1,67 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+ 
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."] 
+ 
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "No problem, any time!", "My pleasure"]
+ 
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+ 
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+     "responses": ["I can show you some latest electronic gadegets" , 
+                    "I can show you some really cool Smartphones" , 
+                    "Why don't i show you some awesome Headphones" , 
+                    "Wanna check out some Video Games" , "How about some cool digital cameras?"]
+ 
+    },
+    {"tag": "products",
+        "patterns": ["Can you show me all your products?", "What all products do you have?" , 
+                    "What do you sell?"],
+        "responses": ["Yes i have a great variety of Smartphones , Digital Cameras , Headphones and Video Games"]
+    
+    },
+    {"tag": "smartphone",
+        "patterns": ["Which is the most popular phone?", "Which is the most trending smartphone?" , 
+                    "Which is the best phone?"],
+        "responses": ["iPhone 12 is the most popular phone" , "Samsung Galaxy Z is the most trending phone" , 
+                    "OnePlus 9 is the latest phone"]
+    
+    },
+    {"tag": "camera",
+        "patterns": ["Which is the most popular digital camera?", "Which is the most trending camera?" , 
+                    "Which is the best camera?"],
+        "responses": ["Canon EOS is the most popular camera. Do check it out!" , 
+                    "Panasonic LUMIX is the one you are looking for!"]
+    
+    },
+    {"tag": "headphone",
+        "patterns": ["Which is the most popular Headphone?", "Which is the most trending bluetooth headphone?" , 
+                    "Which is the best headphone?"],
+        "responses": ["I love BOAT headphones, you should try them" , 
+                    "Skull Candy has a really cool collection, do check it out!" , 
+                    "Sennheiser is the hottest brand right now, do check it out!"]
+    
+    },
+    {"tag": "videogame",
+        "patterns": ["Which the most trending video game?", "Please tell me the latest Video game!" , 
+                    "Do you have any cool Video game?"],
+        "responses": ["I have CALL OF DUTY as one of my favourites of all time" , 
+                    "I you like Adventure, you should try out GTA-VICE CITY"]
+    
+    }
+]
+}
+
